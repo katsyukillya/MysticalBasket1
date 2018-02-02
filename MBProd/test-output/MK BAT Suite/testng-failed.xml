@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MK BAT Suite]">
+  <test name="BAT(failed)">
+    <classes>
+      <class name="com.example.test.OrderKitToolsPageProd">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testOrderKitToolsPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.example.test.OrderKitToolsPageProd -->
+      <class name="com.example.test.MKSearchKitsCategoriesProd">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.test.MKSearchKitsCategoriesProd -->
+      <class name="com.example.test.OrderKitMaterialsPageProd">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testOrderKitMaterialsPage"/>
+        </methods>
+      </class> <!-- com.example.test.OrderKitMaterialsPageProd -->
+      <class name="com.example.test.SearchKitOtherLinksAndLablesProd">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.test.SearchKitOtherLinksAndLablesProd -->
+      <class name="com.example.test.SearchKitAgeDifficultyTimeProd">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.example.test.SearchKitAgeDifficultyTimeProd -->
+      <class name="com.example.test.SearchKitsAboutDropdownNotLoggedInProd">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.example.test.SearchKitsAboutDropdownNotLoggedInProd -->
+      <class name="com.example.test.MKAdminPagesLoggedInProd">
+        <methods>
+          <include name="testMKAdminUsersPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.test.MKAdminPagesLoggedInProd -->
+      <class name="com.example.test.MkCreateNewKitDeployProd">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.example.test.MkCreateNewKitDeployProd -->
+      <class name="com.example.test.SearchKitsHelpDropdownNotLoggedInProd">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.example.test.SearchKitsHelpDropdownNotLoggedInProd -->
+      <class name="com.example.test.MKSearchForKitProd">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.test.MKSearchForKitProd -->
+      <class name="com.example.test.MKAdminCreateANewInvitationProd">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testMKAdminUseANewInvitation"/>
+        </methods>
+      </class> <!-- com.example.test.MKAdminCreateANewInvitationProd -->
+      <class name="com.example.test.OrderKitInstructionsPageProd">
+        <methods>
+          <include name="testOrderKitInstructionsPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.example.test.OrderKitInstructionsPageProd -->
+      <class name="com.example.test.MKBuyAKitProd">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.example.test.MKBuyAKitProd -->
+      <class name="com.example.test.SearchKitsSubCategoriesProd">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.test.SearchKitsSubCategoriesProd -->
+    </classes>
+  </test> <!-- BAT(failed) -->
+</suite> <!-- Failed suite [MK BAT Suite] -->

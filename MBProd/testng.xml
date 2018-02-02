@@ -1,0 +1,20 @@
+<suite name="MK BAT Suite">
+	<test name="BAT">
+		<classes>
+			<class name="com.example.test.MKAdminPagesLoggedInProd" />
+			<class name="com.example.test.MKAdminCreateANewInvitationProd" />
+			<class name="com.example.test.SearchKitsAboutDropdownNotLoggedInProd" />
+			<class name="com.example.test.SearchKitsHelpDropdownNotLoggedInProd" />
+			<class name="com.example.test.MKSearchKitsCategoriesProd" />
+			<class name="com.example.test.SearchKitsSubCategoriesProd" />
+			<class name="com.example.test.SearchKitAgeDifficultyTimeProd" />
+			<class name="com.example.test.SearchKitOtherLinksAndLablesProd" />
+			<class name="com.example.test.OrderKitMaterialsPageProd" />
+			<class name="com.example.test.OrderKitToolsPageProd" />
+			<class name="com.example.test.OrderKitInstructionsPageProd" />
+			<class name="com.example.test.MkCreateNewKitDeployProd" />
+			<class name="com.example.test.MKSearchForKitProd" />
+			<class name="com.example.test.MKBuyAKitProd" />
+		</classes>
+	</test>
+</suite>
